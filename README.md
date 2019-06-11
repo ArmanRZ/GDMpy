@@ -1,5 +1,5 @@
 # PyGDM
-The Python implementation of "Graph Divergence Measure"
+The Python implementation of "Graph Divergence Measure" for one-dimensional variables
 
 By: Arman Rahimzamani\
 Email: armanrz@uw.edu
