@@ -13,7 +13,9 @@ from scipy.special import digamma, gamma
 
 def gdm(data, graph, k):
     '''
-    This function calculates the graph divergence measure from the observed samples samples
+    This function calculates the graph divergence measure from the observed samples samples. Note that this
+    implementation assumes each node being a one-dimensional variable. In general, the variables need not be
+    one-dimensional for GDM to exist.
 
     :param data: an N-by-d array containing N samples of a d-dimensional space
     :param graph: Hypothetical graphical model. A list of lists. The ith element is the list of parents of the ith node.
