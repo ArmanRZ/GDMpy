@@ -1,4 +1,4 @@
-# PyGDM
+# GDMpy
 The Python implementation of "Graph Divergence Measure" for one-dimensional variables
 
 By: Arman Rahimzamani\
